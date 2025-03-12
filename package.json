@@ -1,0 +1,24 @@
+{
+  "name": "codex-theme",
+  "displayName": "Codex Theme",
+  "description": "Classy theme!",
+  "repository": {
+    "url": "https://github.com/ricardojmf/codex-vscode-theme"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codex Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codex-theme-color-theme.json"
+      }
+    ]
+  }
+}
