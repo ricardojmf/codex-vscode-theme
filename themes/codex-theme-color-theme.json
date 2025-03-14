@@ -33,7 +33,7 @@
 		"editorRuler.foreground": "#E8E2D926",
 		"editorSuggestWidget.background": "#1A2521",
 		"editorSuggestWidget.border": "#2E3B36",
-		"editorSuggestWidget.selectedBackground": "#1A2521",
+		"editorSuggestWidget.selectedBackground": "#34463f",
 		"editorWhitespace.foreground": "#E8E2D926",
 		"editorWidget.background": "#1A2521",
 		"editorWidget.border": "#2E3B36",
@@ -265,6 +265,61 @@
 			"settings": {
 				"foreground": "#F8F2E9",
 			}
-		}
+		},
+		{
+    "name": "HTML Tags",
+    "scope": [
+      "entity.name.tag.html"
+    ],
+    "settings": {
+      "foreground": "#C1784F"
+    }
+  },
+  {
+    "name": "HTML Attributes",
+    "scope": [
+      "entity.other.attribute-name.html"
+    ],
+    "settings": {
+      "foreground": "#8A9256"
+    }
+  },
+  {
+    "name": "DOCTYPE",
+    "scope": [
+      "meta.tag.sgml.doctype.html"
+    ],
+    "settings": {
+      "foreground": "#E4B027"
+    }
+  },
+  {
+    "name": "ERB Tags",
+    "scope": [
+      "punctuation.section.embedded.ruby"
+    ],
+    "settings": {
+      "foreground": "#8C7A66"
+    }
+  },
+  {
+    "name": "HTML Entities",
+    "scope": [
+      "constant.character.entity.html"
+    ],
+    "settings": {
+      "foreground": "#D1885F"
+    }
+  },
+  {
+    "name": "HTML Punctuation",
+    "scope": [
+      "punctuation.definition.tag.html",
+      "punctuation.separator.key-value.html"
+    ],
+    "settings": {
+      "foreground": "#8C7A66"
+    }
+  }
 	]
 }
